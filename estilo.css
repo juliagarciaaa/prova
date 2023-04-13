@@ -1,0 +1,54 @@
+/*fonte*/
+@import url();
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+:root{
+    --primary: #f1388f;
+    --secondary: rgb(223, 0, 67);
+    --secondary-light: rgb(202, 69, 113);
+    --third: rgb(128, 1, 153);
+    --black: #000;
+    --white: #fff;
+}
+/*para fazer o responsivo é todo mundo flex*/
+/*cabeçalho*/
+header{
+    border-bottom: 0.4rem solid var(--secondary-light);
+    display: flex;
+    height: 6rem;
+}
+header picture{
+    margin-left: 0.5rem;
+    padding: o.5rem;
+}
+header picture img{
+    height: 100%;
+}
+
+/*navegação*/
+header nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: right;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+header nav ul li{
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
